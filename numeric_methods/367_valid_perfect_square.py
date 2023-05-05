@@ -1,3 +1,6 @@
+# Solution for https://leetcode.com/problems/valid-perfect-square/
+
+
 def is_perfect_square(number: int) -> bool:
     if number == 1:
         return True
@@ -12,7 +15,6 @@ def is_perfect_square(number: int) -> bool:
             start = mid
         else:
             return True
-
     return False
 
 
