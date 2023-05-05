@@ -1,4 +1,6 @@
 def is_perfect_square(number: int) -> bool:
+    if number == 1:
+        return True
     start = 0
     end = number
     while (end - start) != 1:
